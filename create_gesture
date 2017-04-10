@@ -1,0 +1,10 @@
+require 'Datavyu_API.rb'
+begin
+  
+   momgesture = create_new_column("momgesture","gesture_p-s-i-c")
+   babygesture = create_new_column("babygesture","gesture_p-s-i-c")   
+  
+  set_column("momgesture",momgesture)
+  set_column("babygesture",babygesture)
+  
+end
